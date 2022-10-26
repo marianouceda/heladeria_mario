@@ -90,7 +90,7 @@ const productsApi = [
 ];
 
 export const getProductById = (id) =>{
-    return productsApi[id];
+    return productsApi[(id-1)];
   }
 
 export default productsApi;
